@@ -2,8 +2,6 @@
 
 # Fluent plugin for Amazon Kinesis
 
-[![Build Status](https://travis-ci.org/awslabs/aws-fluent-plugin-kinesis.svg?branch=master)](https://travis-ci.org/awslabs/aws-fluent-plugin-kinesis)
-
 [Fluentd][fluentd] output plugin
 that sends events to [Amazon Kinesis Streams][streams] (via both API and [Kinesis Producer Library (KPL)][producer]) and [Amazon Kinesis Firehose][firehose] (via API). This gem includes three output plugins respectively:
 
